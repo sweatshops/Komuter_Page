@@ -23,6 +23,10 @@ body{
   -moz-osx-font-smoothing: grayscale;
 }
 
+h1{
+  font-size: 50px;
+}
+
 code{
  white-space: pre-wrap;       /* css-3 */
  white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
@@ -81,7 +85,51 @@ h1.title{
   font-size: 2em;
 }
 
+.phone
+{
+  width: 280px;
+  height: 564px;
+  background-image: url('../image/phone.png');
 
+  /* position relative so screen can be absolute */
+  position: relative;
+
+  /* center align */
+  margin: 0 auto; 
+}
+
+.screen{
+  width: 256px;
+  height: 453px;
+  background-image: url('../imag/screensize.png');
+
+  position: absolute;
+  left: 12px;
+  top: 54px;
+
+  overflow: hidden;
+
+}
+
+.activity{
+  width: 256px;
+  height: 453px;
+
+  position: absolute;
+  left: 0px;
+  top: 0px;
+
+  margin-top: 0px;
+}
+
+.activity div{
+  display: inline-block;
+}
+
+.activity div img{
+  width: 100%;
+  height: 100%;
+}
 
 /* android download button */
 .btn-android {
